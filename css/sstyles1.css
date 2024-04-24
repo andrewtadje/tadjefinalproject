@@ -1,0 +1,101 @@
+.navbar {
+    background-color: #f1eded;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #827d7d;
+}
+
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+a[href="#top"] {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+img {
+    border: 3px solid black;
+    display: block;
+    margin: justify
+    height: 200px;
+    width: 100px;
+}
+body {
+    background-color: #d1cdcd;
+    display: inline-block;
+    margin: 1in;
+    border: 5px solid black;
+    padding: 0.25in;
+    text-align: justify
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.influences {
+    display: flex;
+    align-items: flex-start;
+}
+
+.influences ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+}
+
+.influences .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-align: center
+}
+.albums li {
+    list-style-type: disc;
+}
+.video-container {
+    text-align: center;
+}
+.image-container {
+    text-align: center;
+}
+.image-container img {
+    display: inline-block;
+    width: 160px;
+    height: 200px;
+    margin: 0 10px;
+}
